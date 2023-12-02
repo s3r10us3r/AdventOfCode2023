@@ -1,5 +1,3 @@
-from math import inf as infinity
-
 def find_maximum_values(game_str):
     game_str = game_str.split(':')[1]
     cube_sets = game_str.strip().split(';')
