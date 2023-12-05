@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jedyn\\OneDrive\\Pulpit\\advent_of_code\\AdventOfCode2023\\c#\\day 5 part 1\\c#.csproj": {}
+    "C:\\Users\\jedyn\\OneDrive\\Pulpit\\advent_of_code\\AdventOfCode2023\\c#\\day 5 part 2\\day 5 part 2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jedyn\\OneDrive\\Pulpit\\advent_of_code\\AdventOfCode2023\\c#\\day 5 part 1\\c#.csproj": {
+    "C:\\Users\\jedyn\\OneDrive\\Pulpit\\advent_of_code\\AdventOfCode2023\\c#\\day 5 part 2\\day 5 part 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jedyn\\OneDrive\\Pulpit\\advent_of_code\\AdventOfCode2023\\c#\\day 5 part 1\\c#.csproj",
-        "projectName": "c#",
-        "projectPath": "C:\\Users\\jedyn\\OneDrive\\Pulpit\\advent_of_code\\AdventOfCode2023\\c#\\day 5 part 1\\c#.csproj",
+        "projectUniqueName": "C:\\Users\\jedyn\\OneDrive\\Pulpit\\advent_of_code\\AdventOfCode2023\\c#\\day 5 part 2\\day 5 part 2.csproj",
+        "projectName": "day 5 part 2",
+        "projectPath": "C:\\Users\\jedyn\\OneDrive\\Pulpit\\advent_of_code\\AdventOfCode2023\\c#\\day 5 part 2\\day 5 part 2.csproj",
         "packagesPath": "C:\\Users\\jedyn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jedyn\\OneDrive\\Pulpit\\advent_of_code\\AdventOfCode2023\\c#\\day 5 part 1\\obj\\",
+        "outputPath": "C:\\Users\\jedyn\\OneDrive\\Pulpit\\advent_of_code\\AdventOfCode2023\\c#\\day 5 part 2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jedyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
