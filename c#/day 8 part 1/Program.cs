@@ -30,4 +30,4 @@ while(currentNode != "ZZZ")
     result++;
 }
 
-Console.WriteLine(result);
+Console.WriteLine((long)result);
