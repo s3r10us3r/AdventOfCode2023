@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-static int solve(string spring, List<int> nums, int numIndex, int start, int left_to_cover)
+﻿static int solve(string spring, List<int> nums, int numIndex, int start, int left_to_cover)
 {   
     int num = nums[numIndex];
     int possibleSolutions = 0;
@@ -32,7 +30,7 @@ static int solve(string spring, List<int> nums, int numIndex, int start, int lef
     return possibleSolutions;
 }
 
-string filePath = "input.txt"; // Replace with the path to your file
+string filePath = "input.txt";
 
 List<(string spring, List<int> nums)> problemList = []; 
 
@@ -41,7 +39,6 @@ try
     using StreamReader sr = new StreamReader(filePath);
     string line;
 
-    // Read and display lines from the file until the end of the file is reached.
     while ((line = sr.ReadLine()) != null)
     {
         string[] strings = line.Split(" ");
@@ -69,7 +66,7 @@ int result = 0;
 
 foreach(var (spring, nums) in problemList)
 {
-    int thissol = solve(spring, nums, 0, 0, spring.Count(c => c == '#')); 
+    int thissol = solve(spring, nums, 0, 0, spring.Count(c => c == '#'));
     result += thissol;
 }
 
