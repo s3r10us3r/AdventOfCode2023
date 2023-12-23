@@ -1,15 +1,15 @@
 public class Part
 {
-    public Dictionary<string, int> minimums = [];
-    public Dictionary<string, int> maximums = [];
+    public Dictionary<string, ulong> minimums = [];
+    public Dictionary<string, ulong> maximums = [];
 
     public Part()
     {
         string[] attrs = ["x", "m", "a", "s"];
         foreach(string attr in attrs)
         {
-            minimums.Add(attr, 0);
-            maximums.Add(attr, 4001);
+            minimums.Add(attr, 1);
+            maximums.Add(attr, 4000);
         }
     }
 
@@ -23,7 +23,7 @@ public class Part
     {
         foreach(string key in minimums.Keys)
         {
-            if(minimums[key] >= maximums[key])
+            if(minimums[key] > maximums[key])
             {
                 return false;
             }

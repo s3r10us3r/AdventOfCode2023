@@ -6,12 +6,7 @@ public class Condition
     public Condition(List<string> lilConditions, string def)
     {
         this.lilConditions = lilConditions;
-        foreach(string lilCondition in lilConditions)
-        {
-            Console.WriteLine($"set lil condition: {lilCondition}");
-        }
         this.def = def;
-        Console.WriteLine($"set def {def}");
     }
 
     public List<(string condition, Part part)> Process(Part part)
@@ -24,25 +19,26 @@ public class Condition
             string cond =  split[0];
             string ret = split[1];
             string attr = cond[0].ToString();
-            int num = int.Parse(cond[3..]);
+            
+            ulong num = ulong.Parse(cond[2..]);
             if(cond[1] == '<')
             {
                 Part passing = new(newPart);
-                passing.maximums[attr] = num;
+                passing.maximums[attr] = Math.Min(num - 1, passing.maximums[attr]);
 
                 if(passing.isValid())
                     proccesedParts.Add((ret, passing));
 
-                newPart.minimums[attr] = num;
+                newPart.minimums[attr] = Math.Max(num, newPart.minimums[attr]);
             }
             else
             {
                 Part passing = new(newPart);
-                passing.minimums[attr] = num;
+                passing.minimums[attr] = Math.Max(num + 1, passing.minimums[attr]);
                 if(passing.isValid())
                     proccesedParts.Add((ret, passing));
 
-                newPart.maximums[attr] = num;
+                newPart.maximums[attr] = Math.Min(num, newPart.maximums[attr]);
             }
             if(!newPart.isValid())
             {
