@@ -1,5 +1,8 @@
 ﻿List<string> input = [];
 
+//this was done partialy by hand you have to find all of the Conjunctions that lead to one cnojunction that lead to rx and find after how many button presses
+//each of them pops out a high pulse, then find LCM of these numbers
+
 using(StreamReader sr = new("input.txt"))
 {
     string line;
