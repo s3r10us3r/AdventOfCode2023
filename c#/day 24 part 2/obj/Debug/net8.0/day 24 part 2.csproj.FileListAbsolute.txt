@@ -1,0 +1,15 @@
+C:\Users\jedyn\OneDrive\Pulpit\advent_of_code\AdventOfCode2023\c#\day 24 part 2\bin\Debug\net8.0\day 24 part 2.exe
+C:\Users\jedyn\OneDrive\Pulpit\advent_of_code\AdventOfCode2023\c#\day 24 part 2\bin\Debug\net8.0\day 24 part 2.deps.json
+C:\Users\jedyn\OneDrive\Pulpit\advent_of_code\AdventOfCode2023\c#\day 24 part 2\bin\Debug\net8.0\day 24 part 2.runtimeconfig.json
+C:\Users\jedyn\OneDrive\Pulpit\advent_of_code\AdventOfCode2023\c#\day 24 part 2\bin\Debug\net8.0\day 24 part 2.dll
+C:\Users\jedyn\OneDrive\Pulpit\advent_of_code\AdventOfCode2023\c#\day 24 part 2\bin\Debug\net8.0\day 24 part 2.pdb
+C:\Users\jedyn\OneDrive\Pulpit\advent_of_code\AdventOfCode2023\c#\day 24 part 2\obj\Debug\net8.0\day 24 part 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jedyn\OneDrive\Pulpit\advent_of_code\AdventOfCode2023\c#\day 24 part 2\obj\Debug\net8.0\day 24 part 2.AssemblyInfoInputs.cache
+C:\Users\jedyn\OneDrive\Pulpit\advent_of_code\AdventOfCode2023\c#\day 24 part 2\obj\Debug\net8.0\day 24 part 2.AssemblyInfo.cs
+C:\Users\jedyn\OneDrive\Pulpit\advent_of_code\AdventOfCode2023\c#\day 24 part 2\obj\Debug\net8.0\day 24 part 2.csproj.CoreCompileInputs.cache
+C:\Users\jedyn\OneDrive\Pulpit\advent_of_code\AdventOfCode2023\c#\day 24 part 2\obj\Debug\net8.0\day 24 part 2.sourcelink.json
+C:\Users\jedyn\OneDrive\Pulpit\advent_of_code\AdventOfCode2023\c#\day 24 part 2\obj\Debug\net8.0\day 24 part 2.dll
+C:\Users\jedyn\OneDrive\Pulpit\advent_of_code\AdventOfCode2023\c#\day 24 part 2\obj\Debug\net8.0\refint\day 24 part 2.dll
+C:\Users\jedyn\OneDrive\Pulpit\advent_of_code\AdventOfCode2023\c#\day 24 part 2\obj\Debug\net8.0\day 24 part 2.pdb
+C:\Users\jedyn\OneDrive\Pulpit\advent_of_code\AdventOfCode2023\c#\day 24 part 2\obj\Debug\net8.0\day 24 part 2.genruntimeconfig.cache
+C:\Users\jedyn\OneDrive\Pulpit\advent_of_code\AdventOfCode2023\c#\day 24 part 2\obj\Debug\net8.0\ref\day 24 part 2.dll
